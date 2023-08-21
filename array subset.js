@@ -9,6 +9,10 @@ function isSubset(arr1, arr2) {
     
     // Store the size of the set before adding elements of arr2
     let originalSize = s.size;
+
+    // for (let i = 0; i < arr2.length; i++) { s.add(arr2[i]); }: This loop iterates through each element in arr2 and adds it to the Set s. This is done to merge the unique elements of both arr1 and arr2 into s.
+
+
     
     // Add elements of arr2 to the set
     for (let i = 0; i < arr2.length; i++) {
