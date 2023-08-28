@@ -10,6 +10,7 @@ console.log(shallowCopyObject); // Output: { a: 99, b: { c: 88 } }
 
 
 
-// deep copy json.parse(json.stringify)
+// deep copy const deepCopyObject = JSON.parse(JSON.stringify(originalObject));
+
 
 
