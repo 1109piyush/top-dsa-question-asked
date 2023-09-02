@@ -13,3 +13,22 @@ it will call function after 3 second only but we stop it again start if someone 
   Throttling: Throttling is a similar technique to debouncing, but instead of delaying the execution of a function, it limits the rate at which a function. This is useful when a function, such as a mousemove or keydown event listener, may be called repeatedly but need not be run each time.
 
 Throttling is a technique in which, no matter how many times the user fires the event, the attached function will be executed only once in a given time interval. Throttling ensures that the function executes at regular intervals.
+
+
+Debouncing
+Throttling 
+Debouncing waits for a certain time before invoking the function again.
+
+Throttling limits the number of times the function can be called over a certain period.
+
+Ensures that the function is called only once, even if the event is triggered multiple times.
+
+Ensures that the function is called at a regular interval, even if the event is triggered multiple times.
+
+Useful when you want to delay the invocation of a function until a certain period of inactivity has passed.
+
+Useful when you want to list the Frequency of function calls.
+
+Eg. You can debounce an async API request function that is called every time the user types in an input field.
+
+Eg. You can throttle a slide change Function that is called every time the user clicks a button in a carousel.
